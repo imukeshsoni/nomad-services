@@ -46,20 +46,6 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        leading: Icon(Icons.menu),
-        title: Text('NOMAD Services'),
-        actions: [
-          Icon(
-            Icons.hdr_weak,
-            size: Dimensions.font26,
-          ),
-          Padding(
-            padding: EdgeInsets.symmetric(horizontal: Dimensions.width10),
-          )
-        ],
-        backgroundColor: AppColors.primaryColor,
-      ),
       body: Center(
         child: _widgetOptions.elementAt(_selectedIndex),
       ),
