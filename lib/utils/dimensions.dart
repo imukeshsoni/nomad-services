@@ -37,6 +37,7 @@ class Dimensions {
 
   // dynamic iconSizes
   static final iconSize24 = screenHeight / 35.17;
+  static final iconSize28 = screenHeight / 30.14;
   static final iconSize16 = screenHeight / 52.75;
 
   // Food details image size
